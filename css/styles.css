@@ -1,4 +1,5 @@
 body{
+    color: #40514E;
     margin: 0;
     text-align: center;
     font-family: 'Merriweather', serif;
@@ -12,45 +13,104 @@ h1{
 
 h2{
     font-size: 2.5rem;
+    font-weight: bolder;
     color:  #66BFBF;
     font-weight:  normal;
     font-family: 'Montserrat', sans-serif;
+    padding-bottom: 10px;
 }
 
 h3{
     color:  #11999E;
     font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+p{
+    line-height: 2;
 }
 
 .top-container{
-    background-color: #e4f9f5;
+    background-color: #EAF6F6;
     position: relative;
     padding-top: 100px;
 }
+
+.under-text{
+    text-decoration: underline;
+}
+.intro{
+    width: 30%;
+    margin: auto;
+}
+
+hr{
+    border: dotted #40514E 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto 100px auto;
+}
 .middle-container{
-   
+   margin: 100px 0 100px 0;
 }
 .bottom-container{
-    
+    background-color: #66BFBF;
+    padding: 50px 0 20px;
+
+}
+
+a{
+    color: #11999E;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;;
+}
+
+a:hover{
+    color: #EAF6F6;
 }
 
 .bottom-cloud{
     position: absolute;
-    left: 300px;
+    left: 250px;
     bottom: 300px;
+}
+
+.copyright{
+    color:#EAF6F6;
+    font-size: 0.75rem;
+    padding: 20px 0px;
+}
+
+.contact-message{
+   width: 40%; 
+   margin: 40px auto 60px;
+}
+
+.btn{
+  background-color: #66BFBF; /* Green */
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
 }
 
 .top-cloud{
     position: absolute;
     right: 300px;
-    top: 50px;
+    top: 40px;
 }
 
 .skill-row{
     width: 50%;
     margin: 100px auto 100px auto;
     text-align: left;
-    line-height: 2; 
+     
 }
 
 .design-img{
