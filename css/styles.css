@@ -21,6 +21,7 @@ h3{
     color:  #11999E;
     font-family: 'Montserrat', sans-serif;
 }
+
 .top-container{
     background-color: #e4f9f5;
     position: relative;
@@ -43,4 +44,23 @@ h3{
     position: absolute;
     right: 300px;
     top: 50px;
+}
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2; 
+}
+
+.design-img{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.code-img{
+    width: 25%;
+    float: right;
+    margin-right: 30px;
 }
